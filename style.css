@@ -1,0 +1,67 @@
+.display{
+    background: #eadfd893;
+}
+
+.casual,
+.formal,
+.fancy,
+.custom{
+    position: relative;
+}
+
+.casual .btn{
+    position: absolute;
+    top:50%;
+    left:0%;
+    transform:translate(-50%, -50%);
+    transition: all 0.5s ease-in-out;
+    opacity:0;
+}
+
+.formal .btn{
+    position: absolute;
+    top:50%;
+    left:0%;
+    transform:translate(-50%, -50%);
+    transition: all 0.5s ease-in-out;
+    opacity:0;
+}
+
+.fancy .btn{
+    position: absolute;
+    top:50%;
+    left:0%;
+    transform:translate(-50%, -50%);
+    transition: all 0.5s ease-in-out;
+    opacity:0;
+}
+
+.custom .btn{
+    position: absolute;
+    top:50%;
+    left:0%;
+    transform:translate(-50%, -50%);
+    transition: all 0.5s ease-in-out;
+    opacity:0;
+}
+
+.casual:hover img,
+.formal:hover img,
+.fancy:hover img,
+.custom:hover img{
+    filter:brightness(0.5)
+}
+
+.casual:hover .btn,
+.formal:hover .btn,
+.fancy:hover .btn,
+.custom:hover .btn{
+    left:50%;
+    opacity: 1;
+}
+
+
+
+
+
+
